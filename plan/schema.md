@@ -1,0 +1,43 @@
+# Schema of a Book
+
+Book
+- meta
+	- author
+		- name
+			- first (is-initial)
+			- middle (is-initial)
+			- last (is-initial)
+			- single
+		- aliases
+			- name
+	- date-written (format)
+	- publication
+		- date-published (format)
+		- date-published-first (format)
+		- edition
+		- publisher
+			- name
+			- address (style)
+				- country
+				- city
+				- road
+				- house number
+				- etc
+- Table of Contents (can be auto generated)
+- Contents
+	- Section
+		- Section
+		- page number
+		- Title
+		- Text
+			- Footnote
+			- Reference
+			- Quotation
+			- Quotation block
+			- Paragraph
+			- Table
+			- page number
+- Glossary
+- Footnotes
+- Reference Section
+- Index
